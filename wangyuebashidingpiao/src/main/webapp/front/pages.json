@@ -1,0 +1,224 @@
+ {
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	},
+	{
+		"path": "pages/shop-order-confirm/shop-order-confirm",
+		"style": {
+			"navigationBarTitleText": "订单确认"
+		}
+	}
+	,{
+		"path": "pages/shop-order/shop-order",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	
+			,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/bashi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/bashi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/bashi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/bashiLiuyan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/bashiLiuyan/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/bashiLiuyan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/shop-recharge/recharge",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/chat/chat",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},
+	{
+		"path": "pages/jifneduihuan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jifneduihuan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jifenjilu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/lingyang/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/lingyang/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/lingyang/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white"
+		}
+	}
+			, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "网约巴士订票平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#FFEA00",
+		"borderStyle": "black",
+		"backgroundColor": "#990033",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			,{
+				"pagePath": "pages/bashi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "巴士订票"
+			}
+			,{
+			 	"pagePath": "pages/shop-order/shop-order",
+				"iconPath": "static/tabs/type.png",
+			 	"selectedIconPath": "static/tabs/type1.png",
+				"text": "购票订单"
+			}
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
